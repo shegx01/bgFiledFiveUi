@@ -1,0 +1,116 @@
+body, * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: center;
+  padding-bottom: 20px;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__content {
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__content__title {
+  color: #AEADAB;
+  text-transform: capitalize;
+  font-size: 26px;
+  font-weight: 600;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-top: 30px;
+}
+
+.container__content__input {
+  margin: 20px 0 0;
+}
+
+.container__content__input--password, .container__content__input--username {
+  padding: 20px 0;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid #EBEBEB;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__content__input--password::-webkit-input-placeholder, .container__content__input--username::-webkit-input-placeholder {
+  color: #ccc3c3;
+  font-size: 24px;
+  padding: 0 0 0 10px;
+  text-transform: capitalize;
+}
+
+.container__content__input--password:-ms-input-placeholder, .container__content__input--username:-ms-input-placeholder {
+  color: #ccc3c3;
+  font-size: 24px;
+  padding: 0 0 0 10px;
+  text-transform: capitalize;
+}
+
+.container__content__input--password::-ms-input-placeholder, .container__content__input--username::-ms-input-placeholder {
+  color: #ccc3c3;
+  font-size: 24px;
+  padding: 0 0 0 10px;
+  text-transform: capitalize;
+}
+
+.container__content__input--password::placeholder, .container__content__input--username::placeholder {
+  color: #ccc3c3;
+  font-size: 24px;
+  padding: 0 0 0 10px;
+  text-transform: capitalize;
+}
+
+.container__content__input--submit {
+  padding: 20px 0;
+  background-color: #DB5250;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
+.container__content__input--submit:hover {
+  background-color: #b1504e;
+}
+/*# sourceMappingURL=style.css.map */
