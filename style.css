@@ -57,7 +57,7 @@ body {
 }
 
 .container__content__input--password, .container__content__input--username {
-  padding: 20px 0;
+  padding: 20px 0 20px 10px;
   width: 300px;
   border-radius: 5px;
   border: 2px solid #EBEBEB;
